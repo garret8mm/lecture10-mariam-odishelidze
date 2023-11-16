@@ -1,4 +1,4 @@
-@media (max-width:247px) {
+@media (max-width:452px) {
     .container1{
         display: flex;
         flex-wrap: wrap;
@@ -6,10 +6,49 @@
     }
 
     .logo{
-        width:100 ;
+        width:100% ;
         display:flex;
         justify-content: flex-start;
         align-items: flex-start;
 
     }
+
+    h1{
+        display: block;
+        font-size: 50px;}
 }
+
+@media (max-width:255px) {
+
+header{
+    display: none;
+}
+    .shvili{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shvili2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:1212px) {
+
+section{
+    display: none;
+}
+    .first{
+    display: block;
+    width: 90%;
+    }
+
+.kkd{
+   display: block;
+   width: 90%;
+}
+    
